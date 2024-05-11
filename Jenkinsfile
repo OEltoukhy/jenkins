@@ -24,7 +24,7 @@ pipeline{
     always{
       echo "the build is done"
     }
-    sucess{
+    success{
             echo "the build is done sucessfully"
   }
     failure{
