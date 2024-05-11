@@ -20,4 +20,7 @@ pipeline{
       }
     }
   }
+  post{
+    echo 5+5
+  }
 }
