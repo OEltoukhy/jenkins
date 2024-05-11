@@ -9,11 +9,11 @@ pipeline{
     }
 
     stage("build"){
-      when{
-        expression{
-          BRANCH_NAME == "origin/main"
-        }
-      }
+      // when{
+      //   expression{
+      //     BRANCH_NAME == "origin/main"
+      //   }
+      // }
       steps{
       echo "building...."
       }
