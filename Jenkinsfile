@@ -30,4 +30,5 @@ pipeline{
     failure{
       echo "There is an error please try to fix it"
     }
+  }
 }
