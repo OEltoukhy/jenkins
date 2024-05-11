@@ -20,4 +20,14 @@ pipeline{
       }
     }
   }
+  post{
+    always{
+      echo "the build is done"
+    }
+    sucess{
+            echo "the build is done sucessfully"
+  }
+    failure{
+      echo "There is an error please try to fix it"
+    }
 }
